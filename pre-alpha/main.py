@@ -21,21 +21,6 @@ verticies = [[ 1,  1,  1],
              [-1, -1, -1],
              [-1, -1,  1]]
 
-""""
-3)Adicionar Clipping
-
-4)Adicionar a possibilidade de renderizar vários objetos, ou seja, varias listas de vertices e faces 
-(tomar cuidado com para na hora que for fazer o sort, tem q fazer o sort de todos juntos ao mesmo tempo,
-entao vai ter q mudar muita coisa na função de sort)
-
-5)Tentar adicionar outros tipos de luzes, como luz pontual, luz em cone, luz em paralelo mas que ao contrario da luz global
-decai com o quadrado da distancia
-
-6)Fazer profilling pra ver se traduzir isso pra um modo que trabalhei com numpy/numba ou cython é justificavel 
-(mesmo que nao seja será interessante fazer pois quando eu for trabalhar com z-buffer, textura e UV-clipping 
-vou ter q provavelmente controlar pixel a pixel da tela)
-"""
-
 #verticies, faces = load_obj("models/forest.obj", face_color = [255, 255, 255])
 
 znear = -1
