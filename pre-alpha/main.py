@@ -21,7 +21,7 @@ verticies = [[ 1,  1,  1],
              [-1, -1, -1],
              [-1, -1,  1]]
 
-#verticies, faces = load_obj("models/forest.obj", face_color = [255, 255, 255])
+verticies, faces = load_obj("models/forest.obj", face_color = [255, 255, 255])
 
 znear = -1
 zfar = -1000
